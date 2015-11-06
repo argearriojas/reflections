@@ -13,3 +13,9 @@ directory to the repository. The staging area offers a way to flag the file or
 files that we are considering to include in our next commit. It allows us to
 choose every file that should be part of a particular commit, and split all
 changes to different files in different logical commits.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+I could add files to staging area and then use git diff to compare files at
+staging area with the ones at the repository.
