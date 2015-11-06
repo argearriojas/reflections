@@ -19,3 +19,10 @@ change?
 
 I could add files to staging area and then use git diff to compare files at
 staging area with the ones at the repository. (git diff --staged)
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+When there is the need to work on a major change in the project, that might
+brake it and make it unusable for a while. In this case a new branch can be
+created and leave the working master brach untouched.
