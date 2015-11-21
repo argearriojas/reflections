@@ -1,28 +1,46 @@
 1.- What happens when you initialize a repository? Why do you need to do it?
 
-When a repostory is initialized a .git directory is created, in which all 
-metadata about tracked files is stored. This sets what is needed to start using
-git as a VCS in our project. I need to initialize the repository in order to
-implement version control with git.
+  When a repository is initialized a .git directory is created, in which all 
+  metadata about tracked files is stored. This sets what is needed to start
+  using git as a VCS in our project. I need to initialize the repository in 
+  order to implement version control with git.
 
 2.- How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 
-The staging area is in between the process of taking changes in our working 
-directory to the repository. The staging area offers a way to flag the file or
-files that we are considering to include in our next commit. It allows us to
-choose every file that should be part of a particular commit, and split all
-changes to different files in different logical commits.
+  The staging area is in between the process of taking changes in our working 
+  directory to the repository. The staging area offers a way to flag the file or
+  files that we are considering to include in our next commit. It allows us to
+  choose every file that should be part of a particular commit, and split all
+  changes to different files in different logical commits.
 
 3.- How can you use the staging area to make sure you have one commit per
 logical change?
 
-I could add files to staging area and then use git diff to compare files at
-staging area with the ones at the repository. (git diff --staged)
+  I could add files to staging area and then use git diff to compare files at
+  staging area with the ones at the repository. (git diff --staged)
 
 4.- What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
 
-When there is the need to work on a major change in the project, that might
-brake it and make it unusable for a while. In this case a new branch can be
-created and leave the working master brach untouched.
+  When there is the need to work on a major change in the project, that might
+  brake it and make it unusable for a while. In this case a new branch can be
+  created and leave the working master brach untouched.
+
+5.- How do diagrams help you visualize the branch structure?
+
+  Diagrams allows us to explore the branches structure, the related commits
+  and let us know which commits are reachable from a specific branch
+
+6.- What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+  
+  A new commit is created. This new commit includes every change that have been
+  made in each branch
+
+7.- What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+  Git's automatic merging significantly speeds the merging process. Using it
+  can prevent typo errors. It brings to our attention any conflicts that may
+  occur in the process so we can resolve them.
