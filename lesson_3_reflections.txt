@@ -13,3 +13,9 @@
   - Clone: This process makes a copy of a given repository. The original repository can be local or it can be at a remote server.
   - Fork: clones a GitHub repository directly to my GitHub account, whitout cloning to my local drive
   - Branch: Creates a copy of a commit and its history and assigns it a particular label
+
+4.- How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  
+  Now I wouldn't. I'm sure it could be done, but it would require a lot of effort and coordination, restricting the files each developer can edit at a given time, concerting presential or virtual meetings to talk about everyone's progress, or the redaction of progress reports to keep everyone updated. It feels like to be in caverns age.
+
+5.- 
