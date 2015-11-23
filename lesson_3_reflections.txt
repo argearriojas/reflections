@@ -18,4 +18,6 @@
   
   Now I wouldn't. I'm sure it could be done, but it would require a lot of effort and coordination, restricting the files each developer can edit at a given time, concerting presential or virtual meetings to talk about everyone's progress, or the redaction of progress reports to keep everyone updated. It feels like to be in caverns age.
 
-5.- 
+5.- When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+  On a collaborative environment that would be anytime. Every change should pass through a pull request from a development branch to the master branch.
